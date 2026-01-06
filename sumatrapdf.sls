@@ -11,7 +11,7 @@
   '3.4',
 ] %}
 
-sumatrapdf_new:
+sumatrapdf:
   {% for version in versions %}
   '{{ version }}':
   full_name: 'SumatraPDF'
